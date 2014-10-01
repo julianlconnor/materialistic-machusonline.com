@@ -1,0 +1,28 @@
+{
+  "name": "materialistic-machusonline.com",
+  "version": "0.0.0",
+  "description": "Materialistic plugin for machusonline.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muffs/materialistic-machusonline.com"
+  },
+  "keywords": [
+    "materialistic",
+    "machusonline",
+    "plugin",
+    "scraper"
+  ],
+  "author": "Julian Connor <julianlconnor@gmail.com> (muffs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muffs/materialistic-machusonline.com/issues"
+  },
+  "dependencies": {
+    "bluebird": "~2.3.4",
+    "cheerio": "~0.17.0"
+  }
+}
