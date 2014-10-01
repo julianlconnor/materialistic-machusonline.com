@@ -11,7 +11,7 @@ function parseHTML(contents) {
   var data = {};
   var $ = cheerio.load(contents[1]);
 
-  data.title = $('[itemprop=name]').text();
+  data.name = $('[itemprop=name]').text();
 
   data.url = $('[itemprop=url]').attr('content');
   data.image = $('[itemprop=image]').attr('content');
